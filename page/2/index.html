@@ -1,0 +1,236 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>CoolBlog - 个人博客</title><meta name="author" content="bin"><meta name="copyright" content="bin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="书山有路勤为径，学海无涯苦作舟。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CoolBlog">
+<meta property="og:url" content="https://kenan131.github.io/page/2/index.html">
+<meta property="og:site_name" content="CoolBlog">
+<meta property="og:description" content="书山有路勤为径，学海无涯苦作舟。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://vip.helloimg.com/i/2024/04/22/6625da50a223c.jpg">
+<meta property="article:author" content="bin">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://vip.helloimg.com/i/2024/04/22/6625da50a223c.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://kenan131.github.io/page/2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'CoolBlog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-04-26 13:43:15'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.2.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://vip.helloimg.com/i/2024/04/22/6625da50a223c.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://vip.helloimg.com/i/2024/04/22/662615a7c831e.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="CoolBlog"><span class="site-name">CoolBlog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">CoolBlog</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/06/02/%E7%BA%BF%E7%A8%8B%E6%B1%A0/" title="线程池参数说明&amp;手写线程池">线程池参数说明&amp;手写线程池</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-02T07:22:06.000Z" title="发表于 2023-06-02 15:22:06">2023-06-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA/">JAVA</a></span></div><div class="content">线程池简介1、说明线程池是一种用于管理和重用线程的技术，他在并发编程中扮演着重要角色。线程池的基本概念是在应用程序启动时创建一定数量的线程，并将它们保存在线程池中。当需要执行任务时，可以从线程池中获取一个空闲的线程来执行该任务。任务执行完毕后，线程会返回到线程池中，可以被其他任务复用。
+
+本质是将线程资源进行池化保存，达到重复利用的目的，避免线程创建和销毁的资源消耗。
+
+创建方法1、Executors工具创建 2、new ThreadPoolExecutor并设置参数进行创建。
+
+
+2、运行流程
+当任务到达时，线程池管理器检查线程池中是否有空闲的线程。如果有，则将任务分配给空闲线程执行；如果没有，则创建新的线程或将任务放入工作队列中等待执行。（当线程数小于核心线程数时则创建线程，当线程数小于最大线程数并且阻塞队列中满了则创建临时线程，临时线程 + 核心线程 必须小于等于最大线程）
+线程池中的线程数量通常有一定的限制，以控制并发执行的线程数量，避免系统过载。
+线程池提供了一些管理和监控机制，如线程的创建、销毁和状态监控等，方便开发人员进行线程的管理和调试。
+
+线程池参数说明1234567 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/05/25/spi/" title="spi">spi</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-25T08:04:11.000Z" title="发表于 2023-05-25 16:04:11">2023-05-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA/">JAVA</a></span></div><div class="content">介绍一、什么是SPI机制SPI是Service Provider Interface 的简称，即服务提供者接口的意思。SPI说白了就是一种扩展机制，我们在相应配置文件中定义好某个接口的实现类，然后再根据这个接口去这个配置文件中加载这个实例类并实例化。有了SPI机制，那么就为一些框架的灵活扩展提供了可能，而不必将框架的一些实现类写死在代码里面。
+二、SPI机制的主要目的
+为了解耦，将接口和具体实现分离开来；
+提高框架的扩展性。以前写程序的时候，接口和实现都写在一起，调用方在使用的时候依赖接口来进行调用，无权选择使用具体的实现类。
+
+三、SPI机制案例
+JDBC驱动加载案例：利用Java的SPI机制，我们可以根据不同的数据库厂商来引入不同的JDBC驱动包；
+SpringBoot的SPI机制：我们可以在spring.factories中加上我们自定义的自动配置类，事件监听器或初始化器等；
+Dubbo的SPI机制：Dubbo更是把SPI机制应用的淋漓尽致，Dubbo基本上自身的每个功能点都提供了扩展点，比如提供了集群扩展，路由扩展和负载均衡扩展等差不多接近30个扩展点。如果Dubbo的某个内置 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/10/24/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" title="动态规划">动态规划</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-10-24T09:00:36.000Z" title="发表于 2022-10-24 17:00:36">2022-10-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95/">算法</a></span></div><div class="content">dp动态规划 刷题有感。题目：一般都是给定一个数组， 求一个target值。
+动态规划一般都是从前往后推。一定要准确的初始化（类似dp[0][0]&#x3D;1）。不然后面再怎么递推都是0。
+学习连接：代码随想录。完全背包讲解。
+情况1：数组元素可重复选择，不需要排列如2，2，1 和 1，2，2 是一种情况。求组合数
+123456789101112public int change(int amount, int[] coins) &#123;    int[] dp = new int[amount+1];    dp[0]=1;//初始化。为0的组合数为1.即不选任何硬币。    for(int ans : coins)&#123; // 先遍历金钱，即只会出现1块钱 和 5块钱的组合。从而5块不会出现在1块钱之前。        for(int i=1;i&lt;=amount;i++)&#123;            if(i&gt;=ans)&#123;                dp[i]+=dp[i-ans];            &#125;        &# ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/07/15/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/" title="动态代理">动态代理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-07-15T07:17:35.000Z" title="发表于 2022-07-15 15:17:35">2022-07-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA/">JAVA</a></span></div><div class="content">1、动态代理的基本原理在Java中，动态代理是一种在运行时动态创建代理类的方式，它允许开发者在不修改目标对象的情况下，控制其他对象对目标对象的访问。Java动态代理主要通过java.lang.reflect.Proxy类和java.lang.reflect.InvocationHandler接口实现。
+Java中有两种常用的动态代理方式：
+
+JDK动态代理是通过实现接口的方式完成动态代理
+Cglib动态代理是通过继承目标类或实现接口的方式完成动态代理。
+
+动态代理的优势在于它可以在运行时动态生成代理对象，无需事先知道具体的被代理类。这使得代码更加灵活和可扩展。动态代理在软件开发中有多种应用场景，包括但不限于AOP(面向切面编程)、远程方法调用(RPC)、消息中间件、数据库连接池管理、缓存和安全控制等。
+总的来说，动态代理是一种强大的技术，它允许我们在不修改现有代码的情况下增加或改变某个对象的行为。这使得我们能够更加灵活地应对需求变化，提高代码的复用性和可维护性。
+动态代理的核心原理是利用反射机制，在运行时创建一个实现了一组接口的代理实例，该实例将委托其所有方法调用给目标对象。同时，通过 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/03/23/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" title="排序算法">排序算法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-23T05:39:19.000Z" title="发表于 2022-03-23 13:39:19">2022-03-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95/">算法</a></span></div><div class="content">排序的定义排序就是将一组无序的数据排序成有序的序列的操作。分为：
+
+外部排序：内部排序是指待排序序列全部存放在内存中的进行的排序过程。这种方法适用于数量不大的数据元素的排序。
+内部排序：外部排序是指需要排序的数据非常的多，它们必须存储在外部的存储器上，这种排序的过程需要访问外部存储器，这种排序就是外部排序。
+
+排序的稳定性：对于一组数据元素序列，使用某种排序算法对它进行排序，若相同数据之间的前后位置排序后和未排序之前是相同的，我们就称这种排序算法是具有稳定性的。
+本文主要讲解常用的内部排序算法。
+公共方法1234567891011121314151617181920public static void main(String[] args) throws Exception &#123;    int[] nums=new int[20];    Random random = new Random();    for (int i = 0; i &lt; 20; i++) &#123;        nums[i]=random.nextInt(100);        System ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/02/16/spring/" title="spring">spring</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-02-16T09:18:02.000Z" title="发表于 2022-02-16 17:18:02">2022-02-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%A1%86%E6%9E%B6/">框架</a></span></div><div class="content">Spring介绍1.1 概述Spring：出现在2002年左右，降低企业级开发难度。帮助进行模块之间、类与类之间的管理，帮助开发人员创建对象，管理对象之间的关系。2003年传入国内，被大量使用。2017出现新的流行框架SpringBoot，核心思想与Spring相同。核心技术：IoC、AOP，能使模块之间、类之间解耦合。依赖：class A使用class B的属性或方法，称之为class A依赖class B。官网：spring.io
+1.2 优点
+轻量：Spring的所需要的jar包都非常小，一般1M以下，几百kb。核心功能所需要的jar包总共3M左右。Spring框架运行占有资源少，运行效率高，不依赖其他jar。
+针对接口编程，解耦合
+AOP 编程的支持
+方便集成各种优秀框架
+
+1.3 Spring 体系结构Spring 由 20 多个模块组成，它们可以分为数据访问&#x2F;集成（Data Access&#x2F;Integration）、 Web、面向切面编程（AOP, Aspects）、提供JVM的代理 （Instrumentation）、消息发送（Messaging）、 核 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/3/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://vip.helloimg.com/i/2024/04/22/6625da50a223c.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">bin</div><div class="author-info__description">书山有路勤为径，学海无涯苦作舟。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/kenan131"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JAVA/"><span class="card-category-list-name">JAVA</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"><span class="card-category-list-name">数据结构</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%A1%86%E6%9E%B6/"><span class="card-category-list-name">框架</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%AE%97%E6%B3%95/"><span class="card-category-list-name">算法</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%A1%B9%E7%9B%AE/"><span class="card-category-list-name">项目</span><span class="card-category-list-count">4</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%A1%86%E6%9E%B6/" style="font-size: 1.1em; color: #999">框架</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 1.37em; color: #99a4b2">项目</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.1em; color: #999">数据结构</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.23em; color: #999ea6">算法</a> <a href="/tags/JAVA/" style="font-size: 1.5em; color: #99a9bf">JAVA</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">13</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">19k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-26T05:43:15.228Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: #E2E2E2"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By bin</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["今日事&#44;今日毕"])
+  } else {
+    document.getElementById("subtitle").textContent = "今日事&#44;今日毕"
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
