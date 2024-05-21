@@ -45,15 +45,15 @@ ApplicationContext 接口表示 Spring IoC 容器，负责实例化、配置和�
 
 3、postProcessorAfterInitialization
 
-3、 初始化（ init-method）
+4、@PostConstruct
 
-4、afterPropertiesSet 
+5、 初始化（ init-method）
 
-5、初始化之后@PostConstruct
+6、afterPropertiesSet 
 
-6、使用
+7、使用
 
-7、销毁 destroy-method
+8、销毁 destroy-method
 
 ### 三级缓存
 

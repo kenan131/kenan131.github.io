@@ -55,6 +55,19 @@ public class ZhiFuBaoPay implements pay{
 }
 ```
 
+编写配置文件
+
+1、在项目中的resource资源目录下新建META-INF.services文件夹
+
+2、META-INF.services文件夹下，新建一个文件，使用“支付抽象接口”的包路径为文件名。
+
+3、文件类型则为实现类的全路径，包名 +  类名。
+
+```xml
+spi.imp.WeiXinPay
+spi.imp.ZhiFuBaoPay
+```
+
 编写测试类。
 
 ```java
@@ -73,3 +86,6 @@ public class TestPay {
 支付宝支付！
 ```
 
+当你项目中只有微信支付的场景，那么你在配置文件中只配置微信支付的实现类即可实现。
+
+spi机制能够通过配置文件的方式让用户自主选择对应的实现类。
