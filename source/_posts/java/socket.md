@@ -4,6 +4,7 @@ date: 2024-2-12
 tags: JAVA
 categories: JAVA
 ---
+
 ### socket介绍
 
 #### 什么是粘包、半包
@@ -237,4 +238,5 @@ public void sendMessageTest() throws InterruptedException, IOException {
     }
 }
 ```
+
 

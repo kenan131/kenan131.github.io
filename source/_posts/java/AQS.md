@@ -57,7 +57,7 @@ static final class NonfairSync extends Sync{...}
 ```java
 // AQS类中的静态代码块，将内部的state变量的内存偏移量赋值給stateOffset。
 static{
-	stateOffset = unsafe.objectFieldOffset
+    stateOffset = unsafe.objectFieldOffset
                 (AbstractQueuedSynchronizer.class.getDeclaredField("state"));
 }
 // 即可通过stateOffset去更新state变量的值。该方法通过在compareAndSetState(0, 1)中使用
@@ -107,8 +107,8 @@ public final void acquire(int arg) {
 
 1、tryAcquire() 尝试获取锁，即执行加锁逻辑。通常为子类实现方法
 2、加锁失败执行
-	2.1、addWaiter() 将当前线程封装成节点Node加入链表末尾。
-	2.2、acquireQueued() 如果当前节点为第一个入队的节点，则cas尝试获取锁，失败几次后线程进入阻塞状态
+    2.1、addWaiter() 将当前线程封装成节点Node加入链表末尾。
+    2.2、acquireQueued() 如果当前节点为第一个入队的节点，则cas尝试获取锁，失败几次后线程进入阻塞状态
 3、selfInterrupt() 将当前线程的锁中断标识设置为true
 
 - 非公平锁的**tryAcquire**方法
@@ -232,7 +232,7 @@ static final int SIGNAL    = -1; // 表示当前线程进行阻塞，需要其�
 /** waitStatus value to indicate thread is waiting on condition */
 static final int CONDITION = -2;
 /**
-	* waitStatus value to indicate the next acquireShared should
+    * waitStatus value to indicate the next acquireShared should
     * unconditionally propagate
 */
 static final int PROPAGATE = -3;
@@ -344,3 +344,5 @@ private void unparkSuccessor(Node node) {
         LockSupport.unpark(s.thread);
 }
 ```
+
+
